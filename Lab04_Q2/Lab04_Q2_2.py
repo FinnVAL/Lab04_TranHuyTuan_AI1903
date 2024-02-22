@@ -1,0 +1,6 @@
+print("This is new content")
+print("Opening file again...")
+f = open("newfile.txt","w")
+f.write("new content")
+print("This is overwritten content")
+f.close()

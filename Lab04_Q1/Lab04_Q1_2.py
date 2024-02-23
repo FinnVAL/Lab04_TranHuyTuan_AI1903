@@ -19,5 +19,6 @@ print("created", file_2.name)
 file_2.close()
 
 file_name_3 = r"C:\Excercises\\" + current_datetime +".txt"
-with open(file_name_3, 'w') as fp:
+with open(file_name_3, 'w') as f:
     print("created", file_name_3)
+    f.close()

@@ -5,4 +5,8 @@ def count_words(file_name):
     num_words = len(words)
     print('Total words are',num_words)
 
-count_words('story.txt')
+try:
+    n = str(input("Nhập vào tên file:"))
+    count_words(n)
+except:
+    print("File không tồn tại")

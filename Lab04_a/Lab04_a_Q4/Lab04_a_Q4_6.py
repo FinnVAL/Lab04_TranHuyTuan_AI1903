@@ -1,6 +1,6 @@
 import os
 
-old_folder = r"C:\Excercises\\"
+old_folder = r"C:\Excercises\test\\"
 new_folder = r"C:\Excercises\new_demo\\"
 
 old_name = old_folder

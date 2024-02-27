@@ -1,4 +1,3 @@
-import glob
 import os
 
 old_folder = r"C:\Excercises\\"
